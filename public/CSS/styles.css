@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+body{
+    width:100vw;
+    
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}.centrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}.descuento{
+    width:50%;
+}
+main{
+    background-color: #ebebeb;;
+    width:100vw;
+    
+    padding-bottom: 10px;
+    margin:0;
+    border-top:1px solid #ebebeb;
+}article{
+    margin-bottom: 10px;
+    
+    
+        background-color:white;
+        
+    
+}
+h2{
+    font-size: 24px;
+}.precio{
+    font-size:18px;
+    width:30%;
+}.container3070{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+p{
+    font-size: 16px;
+}
+header{
+    background-color: #EAC926;
+    
+    
+}.burgerButtom{
+    color: #fff;
+    background-color:#03264C;;
+    border: hidden;
+    width: 2em;
+    height: 2em;
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}.contenedorI{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}ul{
+    list-style: none;
+    margin:0;
+}footer{
+    text-align: center;
+
+}footer i{
+    padding-top: 10px;
+    font-size:2em;
+    color:#1259c3;
+} 
+section{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}.margin{
+    margin: 0;
+    padding-bottom:10px;
+}.containerTruck{
+    border: 1px solid #39b54a;
+    border-radius: 100%;
+    width:2.3em;
+    height: 2.3em;
+    font-size: 2em;
+    
+    color:#39b54a;
+    position: relative;
+    top: -30%;
+    left: 80%;
+   
+    
+    
+}.articulo{
+    border-top: 1px solid #ebebeb;
+    padding: 5px 15px;
+}.lista{
+    padding-bottom: 10px;
+}.banner{
+    margin:0;
+    padding:0;
+}main section article i{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    }
+
+/* media chicaaaaaaaa*/
+@media (max-width:768px) and (  min-width:361px) {
+    .navInicio{
+        display: none;
+    }.cajonArticle{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin:20px;
+        width:90vw;
+       
+    } img{
+            width: 90%;
+            margin:auto;
+        }
+}
+/* media grandeeeeeeee*/
+@media(min-width:769px ){
+    .contenedorI{
+        display: none;
+    }.cajonArticulo{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        margin:20px;
+        width:90vw;
+    }img{
+        width: 90%;
+    }
+}
