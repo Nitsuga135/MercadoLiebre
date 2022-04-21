@@ -8,5 +8,5 @@ app.use(express.static(publicPath));
 app.get('/home', function(req, res){
     res.sendFile(path.join(__dirname, './views/index.html'));
 });
-app.listen(process.env.PORT || 5000, ()=>console.log("levantando puerto 5000"));
+app.listen(process.env.PORT || 3000, ()=>console.log("levantando puerto 3000"));
 
